@@ -1,418 +1,359 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DVOC Institute</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DVOC Institute</title>
+    <!-- Google Font -->
+    <link
+      href="https://://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Font -->
-  <link href="https://://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <header>
+      <!-- NAVBAR -->
+      <nav class="navbar customContainer">
+        <h2 class="logo">
+          <img src="./assets/dvoc-LOGO_1-2-1024x877.png" alt="DVOC" />
+        </h2>
 
-<body>
-  <header>
-    <!-- NAVBAR -->
-    <nav class="navbar customContainer">
-      <h2 class="logo">
-        <img src="./assets/dvoc-LOGO_1-2-1024x877.png" alt="DVOC" />
-      </h2>
+        <ul class="nav-links">
+          <li><a href="/">Home</a></li>
+          <li><a href="/anotherPage.html">Courses</a></li>
+          <li><a href="#">Placements</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
 
-      <ul class="nav-links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/anotherPage.html">Courses</a></li>
-        <li><a href="#">Placements</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+        <a href="#" class="nav-btn">Enroll Now</a>
+      </nav>
+    </header>
+    <!-- HERO SECTION -->
+    <section class="hero">
+      <!-- HERO CONTENT -->
+      <div class="hero-container">
+        <div class="hero-left">
+          <h1>Learn Skills That <span>Actually Pay</span></h1>
 
-      <a href="#" class="nav-btn">Enroll Now</a>
-    </nav>
-  </header>
-  <!-- HERO SECTION -->
-  <section class="hero">
+          <p>
+            Build real-world skills in Coding, Digital Marketing, and Data
+            Analytics with industry experts and hands-on projects.
+          </p>
 
+          <!-- BUTTONS -->
+          <div class="hero-buttons">
+            <a href="#" class="btn primary">Explore Courses</a>
+            <a href="#" class="btn secondary">Book Free Demo</a>
+          </div>
 
-    <!-- HERO CONTENT -->
-    <div class="hero-container">
-      <div class="hero-left">
-        <h1>Learn Skills That <span>Actually Pay</span></h1>
+          <!-- STATS -->
+          <div class="hero-stats">
+            <div>
+              <h3>5000+</h3>
+              <p>Students Trained</p>
+            </div>
 
-        <p>
-          Build real-world skills in Coding, Digital Marketing, and Data
-          Analytics with industry experts and hands-on projects.
+            <div>
+              <h3>120+</h3>
+              <p>Hiring Partners</p>
+            </div>
+
+            <div>
+              <h3>95%</h3>
+              <p>Placement Rate</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- BACKGROUND BLURS -->
+      <div class="blur blur1"></div>
+      <div class="blur blur2"></div>
+    </section>
+
+    <!-- COURSES SECTION -->
+    <section class="courses">
+      <div class="courses-top">
+        <p class="tag">OUR PROGRAMS</p>
+        <h2 class="section-title">
+          Industry Focused Courses <br />
+          For Future Careers
+        </h2>
+
+        <p class="section-subtitle">
+          Learn practical skills with real-world projects, expert mentorship,
+          and placement-focused training programs.
         </p>
+      </div>
 
-        <!-- BUTTONS -->
-        <div class="hero-buttons">
-          <a href="#" class="btn primary">Explore Courses</a>
-          <a href="#" class="btn secondary">Book Free Demo</a>
+      <div class="courses-grid">
+        <!-- CARD -->
+        <div class="course-card">
+          <div class="card-glow"></div>
+
+          <span class="course-badge">Most Popular</span>
+
+          <h3>Advanced Full Stack Development</h3>
+
+          <p>
+            Learn frontend + backend development with modern tools and
+            real-world projects.
+          </p>
+
+          <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React & Node.js</li>
+            <li>MongoDB & APIs</li>
+            <li>Placement Assistance</li>
+          </ul>
+
+          <a href="#" class="course-btn">Explore Program</a>
         </div>
 
-        <!-- STATS -->
-        <div class="hero-stats">
-          <div>
-            <h3>5000+</h3>
-            <p>Students Trained</p>
+        <!-- CARD -->
+        <div class="course-card">
+          <div class="card-glow"></div>
+
+          <span class="course-badge blue">Career Growth</span>
+
+          <h3>Professional Data Analytics</h3>
+
+          <p>
+            Master Excel, SQL, Power BI, Tableau, and Python for data-driven
+            careers.
+          </p>
+
+          <ul>
+            <li>Advanced Excel</li>
+            <li>SQL & Python</li>
+            <li>Power BI & Tableau</li>
+            <li>Industry Projects</li>
+          </ul>
+
+          <a href="#" class="course-btn">Explore Program</a>
+        </div>
+
+        <!-- CARD -->
+        <div class="course-card">
+          <div class="card-glow"></div>
+
+          <span class="course-badge purple">Trending</span>
+
+          <h3>Professional Digital Marketing</h3>
+
+          <p>
+            Learn SEO, Meta Ads, Google Ads, content strategy, and social media
+            growth.
+          </p>
+
+          <ul>
+            <li>SEO Optimization</li>
+            <li>Performance Marketing</li>
+            <li>Social Media Strategy</li>
+            <li>Live Campaign Projects</li>
+          </ul>
+
+          <a href="#" class="course-btn">Explore Program</a>
+        </div>
+
+        <!-- CARD -->
+        <div class="course-card">
+          <div class="card-glow"></div>
+
+          <span class="course-badge orange">AI Powered</span>
+
+          <h3>AI Essentials Program</h3>
+
+          <p>
+            Learn AI tools, prompt engineering, automation workflows, and AI
+            productivity.
+          </p>
+
+          <ul>
+            <li>AI Fundamentals</li>
+            <li>Prompt Engineering</li>
+            <li>Automation Tools</li>
+            <li>Real Business Use Cases</li>
+          </ul>
+
+          <a href="#" class="course-btn">Explore Program</a>
+        </div>
+      </div>
+      <div class="moreCourses">
+        <a href="./anotherPage.html" class="course-btn"> View More Courses</a>
+      </div>
+    </section>
+
+    <!-- BATCHES -->
+    <section class="batch-big-container">
+      <div class="batch-top"><p class="batch-tag">Our Upcoming Batches</p></div>
+      <div class="batches container">
+        <!-- CARD -->
+        <div class="bat-card">
+          <!-- LEFT DATE BOX -->
+          <div class="date">
+            <h1>May</h1>
+            <div class="line"></div>
+            <p>13</p>
           </div>
 
-          <div>
-            <h3>120+</h3>
-            <p>Hiring Partners</p>
+          <!-- RIGHT CONTENT -->
+          <div class="content">
+            <span>MON-WED FRI</span>
+            <h2>Graphic Designing</h2>
+            <p>01:30 - 03:30 PM</p>
+          </div>
+        </div>
+
+        <div class="bat-card">
+          <!-- LEFT DATE BOX -->
+          <div class="date">
+            <h1>May</h1>
+            <div class="line"></div>
+            <p>13</p>
           </div>
 
-          <div>
-            <h3>95%</h3>
-            <p>Placement Rate</p>
+          <!-- RIGHT CONTENT -->
+          <div class="content">
+            <span>MON-WED FRI</span>
+            <h2>Graphic Designing</h2>
+            <p>01:30 - 03:30 PM</p>
+          </div>
+        </div>
+
+        <div class="bat-card">
+          <!-- LEFT DATE BOX -->
+          <div class="date">
+            <h1>May</h1>
+            <div class="line"></div>
+            <p>13</p>
+          </div>
+
+          <!-- RIGHT CONTENT -->
+          <div class="content">
+            <span>MON-WED FRI</span>
+            <h2>Graphic Designing</h2>
+            <p>01:30 - 03:30 PM</p>
+          </div>
+        </div>
+
+        <div class="bat-card">
+          <!-- LEFT DATE BOX -->
+          <div class="date">
+            <h1>May</h1>
+            <div class="line"></div>
+            <p>13</p>
+          </div>
+
+          <!-- RIGHT CONTENT -->
+          <div class="content">
+            <span>MON-WED FRI</span>
+            <h2>Graphic Designing</h2>
+            <p>01:30 - 03:30 PM</p>
+          </div>
+        </div>
+
+        <div class="bat-card">
+          <!-- LEFT DATE BOX -->
+          <div class="date">
+            <h1>May</h1>
+            <div class="line"></div>
+            <p>13</p>
+          </div>
+
+          <!-- RIGHT CONTENT -->
+          <div class="content">
+            <span>MON-WED FRI</span>
+            <h2>Graphic Designing</h2>
+            <p>01:30 - 03:30 PM</p>
+          </div>
+        </div>
+
+        <div class="bat-card">
+          <!-- LEFT DATE BOX -->
+          <div class="date">
+            <h1>May</h1>
+            <div class="line"></div>
+            <p>13</p>
+          </div>
+
+          <!-- RIGHT CONTENT -->
+          <div class="content">
+            <span>MON-WED FRI</span>
+            <h2>Graphic Designing</h2>
+            <p>01:30 - 03:30 PM</p>
+          </div>
+        </div>
+
+        <div class="bat-card">
+          <!-- LEFT DATE BOX -->
+          <div class="date">
+            <h1>May</h1>
+            <div class="line"></div>
+            <p>13</p>
+          </div>
+
+          <!-- RIGHT CONTENT -->
+          <div class="content">
+            <span>MON-WED FRI</span>
+            <h2>Graphic Designing</h2>
+            <p>01:30 - 03:30 PM</p>
+          </div>
+        </div>
+
+        <div class="bat-card">
+          <!-- LEFT DATE BOX -->
+          <div class="date">
+            <h1>May</h1>
+            <div class="line"></div>
+            <p>13</p>
+          </div>
+
+          <!-- RIGHT CONTENT -->
+          <div class="content">
+            <span>MON-WED FRI</span>
+            <h2>Graphic Designing</h2>
+            <p>01:30 - 03:30 PM</p>
+          </div>
+        </div>
+
+        <div class="bat-card">
+          <!-- LEFT DATE BOX -->
+          <div class="date">
+            <h1>May</h1>
+            <div class="line"></div>
+            <p>13</p>
+          </div>
+
+          <!-- RIGHT CONTENT -->
+          <div class="content">
+            <span>MON-WED FRI</span>
+            <h2>Graphic Designing</h2>
+            <p>01:30 - 03:30 PM</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
-    <!-- BACKGROUND BLURS -->
-    <div class="blur blur1"></div>
-    <div class="blur blur2"></div>
-  </section>
-
-  <!-- COURSES SECTION -->
-  <section class="courses">
-
-    <div class="courses-top">
-      <p class="tag">OUR PROGRAMS</p>
-      <h2 class="section-title">
-        Industry Focused Courses <br />
-        For Future Careers
-      </h2>
-
-      <p class="section-subtitle">
-        Learn practical skills with real-world projects, expert mentorship,
-        and placement-focused training programs.
-      </p>
-    </div>
-
-    <div class="courses-grid">
-
-      <!-- CARD -->
-      <div class="course-card">
-        <div class="card-glow"></div>
-
-        <span class="course-badge">Most Popular</span>
-
-        <h3>Advanced Full Stack Development</h3>
-
-        <p>
-          Learn frontend + backend development with modern tools and
-          real-world projects.
-        </p>
-
-        <ul>
-          <li>HTML, CSS, JavaScript</li>
-          <li>React & Node.js</li>
-          <li>MongoDB & APIs</li>
-          <li>Placement Assistance</li>
-        </ul>
-
-        <a href="#" class="course-btn">Explore Program</a>
+    <section class="Get-Certificate">
+      <div class="certificate">Get Your Certificate</div>
+      <div class="image">
+        <img src = "./assets/certno1-copy.png.webp"/>
       </div>
-
-      <!-- CARD -->
-      <div class="course-card">
-        <div class="card-glow"></div>
-
-        <span class="course-badge blue">Career Growth</span>
-
-        <h3>Professional Data Analytics</h3>
-
-        <p>
-          Master Excel, SQL, Power BI, Tableau, and Python for data-driven
-          careers.
-        </p>
-
-        <ul>
-          <li>Advanced Excel</li>
-          <li>SQL & Python</li>
-          <li>Power BI & Tableau</li>
-          <li>Industry Projects</li>
-        </ul>
-
-        <a href="#" class="course-btn">Explore Program</a>
-      </div>
-
-      <!-- CARD -->
-      <div class="course-card">
-        <div class="card-glow"></div>
-
-        <span class="course-badge purple">Trending</span>
-
-        <h3>Professional Digital Marketing</h3>
-
-        <p>
-          Learn SEO, Meta Ads, Google Ads, content strategy, and social media
-          growth.
-        </p>
-
-        <ul>
-          <li>SEO Optimization</li>
-          <li>Performance Marketing</li>
-          <li>Social Media Strategy</li>
-          <li>Live Campaign Projects</li>
-        </ul>
-
-        <a href="#" class="course-btn">Explore Program</a>
-      </div>
-
-      <!-- CARD -->
-      <div class="course-card">
-        <div class="card-glow"></div>
-
-        <span class="course-badge orange">AI Powered</span>
-
-        <h3>AI Essentials Program</h3>
-
-        <p>
-          Learn AI tools, prompt engineering, automation workflows, and AI
-          productivity.
-        </p>
-
-        <ul>
-          <li>AI Fundamentals</li>
-          <li>Prompt Engineering</li>
-          <li>Automation Tools</li>
-          <li>Real Business Use Cases</li>
-        </ul>
-
-        <a href="#" class="course-btn">Explore Program</a>
-      </div>
-
-    </div>
-    <div class="moreCourses">
-      <a href="./anotherPage.html" class="course-btn">
-        View More Courses</a>
-    </div>
-
-
-
-  </section>
-
-
-  <p class="batch-tag">Our Upcoming Batches</p>
-  <!-- BATCHES -->
-  <section class="batches container">
-
-
-    <!-- CARD -->
-
-    <div class="bat-card">
-      <!-- LEFT DATE BOX -->
-      <div class="date">
-
-        <h1>May</h1>
-
-        <div class="line"></div>
-
-        <p>13</p>
-
-      </div>
-
-      <!-- RIGHT CONTENT -->
-      <div class="content">
-
-        <span>MON-WED FRI</span>
-
-        <h2>Graphic Designing</h2>
-
-        <p>01:30 - 03:30 PM</p>
-
-      </div>
-    </div>
-
-    <div class="bat-card">
-      <!-- LEFT DATE BOX -->
-      <div class="date">
-
-        <h1>May</h1>
-
-        <div class="line"></div>
-
-        <p>13</p>
-
-      </div>
-
-
-      <!-- RIGHT CONTENT -->
-      <div class="content">
-
-        <span>MON-WED FRI</span>
-
-        <h2>Graphic Designing</h2>
-
-        <p>01:30 - 03:30 PM</p>
-
-      </div>
-    </div>
-
-    <div class="bat-card">
-
-      <!-- LEFT DATE BOX -->
-      <div class="date">
-
-        <h1>May</h1>
-
-        <div class="line"></div>
-
-        <p>13</p>
-
-      </div>
-
-      <!-- RIGHT CONTENT -->
-      <div class="content">
-
-        <span>MON-WED FRI</span>
-
-        <h2>Graphic Designing</h2>
-
-        <p>01:30 - 03:30 PM</p>
-
-      </div>
-
-    </div>
-
-    <div class="bat-card">
-      <!-- LEFT DATE BOX -->
-      <div class="date">
-
-        <h1>May</h1>
-
-        <div class="line"></div>
-
-        <p>13</p>
-
-      </div>
-
-      <!-- RIGHT CONTENT -->
-      <div class="content">
-
-        <span>MON-WED FRI</span>
-
-        <h2>Graphic Designing</h2>
-
-        <p>01:30 - 03:30 PM</p>
-
-      </div>
-    </div>
-
-
-    <div class="bat-card">
-      <!-- LEFT DATE BOX -->
-      <div class="date">
-
-        <h1>May</h1>
-
-        <div class="line"></div>
-
-        <p>13</p>
-
-      </div>
-
-      <!-- RIGHT CONTENT -->
-      <div class="content">
-
-        <span>MON-WED FRI</span>
-
-        <h2>Graphic Designing</h2>
-
-        <p>01:30 - 03:30 PM</p>
-
-      </div>
-    </div>
-
-
-    <div class="bat-card">
-      <!-- LEFT DATE BOX -->
-      <div class="date">
-
-        <h1>May</h1>
-
-        <div class="line"></div>
-
-        <p>13</p>
-
-      </div>
-
-      <!-- RIGHT CONTENT -->
-      <div class="content">
-
-        <span>MON-WED FRI</span>
-
-        <h2>Graphic Designing</h2>
-
-        <p>01:30 - 03:30 PM</p>
-
-      </div>
-    </div>
-
-
-
-    <div class="bat-card">
-      <!-- LEFT DATE BOX -->
-      <div class="date">
-
-        <h1>May</h1>
-
-        <div class="line"></div>
-
-        <p>13</p>
-
-      </div>
-
-      <!-- RIGHT CONTENT -->
-      <div class="content">
-
-        <span>MON-WED FRI</span>
-
-        <h2>Graphic Designing</h2>
-
-        <p>01:30 - 03:30 PM</p>
-
-      </div>
-    </div>
-
-
-
-    <div class="bat-card">
-      <!-- LEFT DATE BOX -->
-      <div class="date">
-
-        <h1>May</h1>
-
-        <div class="line"></div>
-
-        <p>13</p>
-
-      </div>
-
-      <!-- RIGHT CONTENT -->
-      <div class="content">
-
-        <span>MON-WED FRI</span>
-
-        <h2>Graphic Designing</h2>
-
-        <p>01:30 - 03:30 PM</p>
-
-      </div>
-    </div>
-
-
-  </section>
-
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
