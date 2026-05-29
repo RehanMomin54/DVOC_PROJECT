@@ -533,7 +533,6 @@ header {
   width: 750px;
 }
 
-
 .icon-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px , 1fr));
@@ -545,10 +544,29 @@ header {
   width: 60px;
 }
 
-
 .icon  h3{
   font-size: larger;
 }
+
+
+.event{
+padding: 25px;
+background-image:linear-gradient(rgba(0,0,0,0.5)), url("assets/photo-1558008258-3256797b43f3.avif");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+color: white;
+}
+
+
+.eventInfo{
+margin-left: 40px;
+width: 400px;
+
+}
+
+
+
 /* RESPONSIVE */
 @media (max-width: 992px) {
   .courses-grid {
